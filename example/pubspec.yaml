@@ -8,5 +8,5 @@ environment:
 
 dev_dependencies:
   dart_company_lints:
-    # Replace the path to include your company rulse to the project.
+    # Replace the path to include your company rules to the project.
     git: https://github.com/signmotion/dart_company_lints.git
