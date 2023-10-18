@@ -1,10 +1,12 @@
 name: example
-description: An example project that uses Dart recommended lints.
+description: An example project that uses Dart company lints.
 version: 0.1.0
 publish_to: none
 
 environment:
-  sdk: ^3.0.0
+  sdk: ">=3.0.0"
 
 dev_dependencies:
-  lints: ^2.1.0
+  dart_company_lints:
+    # Replace the path to include your company rulse to the project.
+    git: https://github.com/signmotion/dart_company_lints.git
